@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>申请表</h2>
+<form action="http://www.hxciscute.xin" method="get">
+    <div>
+        <label>姓&nbsp;&nbsp;&nbsp;&nbsp;名</label>
+        <input type="text" name="name">
+    </div>
+    <br>
+    <div>
+        <label>密&nbsp;&nbsp;&nbsp;&nbsp;码</label>
+        <input type="password" name="pwd">
+    </div>
+    <br>
+    <div>
+        <label>照&nbsp;&nbsp;&nbsp;&nbsp;片</label>
+        <input type="file" name="photo">
+    </div>
+    <br>
+    <div>
+        <label>感兴趣的职位</label>
+        <input type="radio" name="work" id="web1" value="1"><label for="web1">web设计</label>
+        <input type="radio" name="work" id="web0" value="0"><label for="web0">web开发</label>
+    </div>
+    <br>
+    <div>
+        <label>向往的城市</label>
+        <select name="city">
+            <option value="-1">- -请选择- -</option>
+            <option value="0">北京</option>
+            <option value="1">广州</option>
+            <option value="2">成都</option>
+            <option value="3">南昌</option>
+            <option value="4">长沙</option>
+            <option value="4">天津</option>
+            <option value="4">上海</option>
+            <option value="4">深圳</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <label>协议</label>
+        <textarea readonly>求职信息必须真实，准确。本网站只负责向企业推荐。
+            </textarea>
+    </div>
+    <br>
+    <div>
+        <input type="checkbox" name="agree" value="1">
+        <label>我已认真阅读并接受以上协议.</label>
+    </div>
+    <br>
+    <div>
+        <label>经验</label>
+        <select name="city">
+            <option value="-1">- -请选择- -</option>
+            <option value="0">没有工作经验</option>
+            <option value="1">1-2年</option>
+            <option value="2">3-5年</option>
+            <option value="4">5年以上</option>
+        </select>
+    </div>
+    <br>
+    <input type="submit" name="submit" value="提交">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="reset" name="reset" value="重置">
+</form>
+</body>
+</html>

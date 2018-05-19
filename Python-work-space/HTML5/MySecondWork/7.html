@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单</title>
+    <style>
+        * {
+            font-family: "Microsoft YaHei";
+        }
+    </style>
+</head>
+<body>
+<form action="http://www.hxciscute.top" method="get">
+    <div>
+        <label for="username">用户名</label>
+        <input type="text" name="username" id="username" value="请输入您的名字">
+    </div>
+    <br>
+    <div>
+        <label for="lastName">姓&nbsp;&nbsp;&nbsp;&nbsp;氏</label>
+        <input type="text" name="lastName" id="lastName">
+    </div>
+    <br>
+    <div>
+        <label for="loginName">登录名</label>
+        <input type="text" name="loginName" id="loginName"><span>(可以包含a-z,0-9和下划线之间选择)</span>
+    </div>
+    <br>
+    <div>
+        <label for="pwd">密&nbsp;&nbsp;&nbsp;&nbsp;码</label>
+        <input type="password" name="password" id="pwd"><span>(至少包含6个字符)</span>
+    </div>
+    <br>
+    <div>
+        <label for="pwdAgain">再次输入密码</label>
+        <input type="password" name="password" id="pwdAgain"><span>(至少包含6个字符)</span>
+    </div>
+    <br>
+    <div>
+        <label for="e-mail">邮&nbsp;&nbsp;&nbsp;&nbsp;箱</label>
+        <input type="text" name="e-mail" id="e-mail"><span>(必须包含@符号)</span>
+    </div>
+    <br>
+    <div>
+        <label>性&nbsp;&nbsp;&nbsp;&nbsp;别</label>
+        <input type="radio" name="sex" id="male" value="1"><label for="male">男</label>
+        <input type="radio" name="sex" id="female" value="0"><label for="female">女</label>
+
+    </div>
+    <br>
+    <div>
+        <label>文&nbsp;&nbsp;&nbsp;&nbsp;件</label>
+        <input type="file" name="file">
+    </div>
+    <br>
+    <div>
+        <label>爱&nbsp;&nbsp;&nbsp;&nbsp;好</label>
+        <input type="checkbox" name="hobby" value="game">游戏
+        <input type="checkbox" name="hobby" value="reading">看书
+        <input type="checkbox" name="hobby" value="sports">运动
+        <input type="checkbox" name="hobby" value="surfing">上网
+        <input type="checkbox" name="hobby" value="chat">聊天
+        <input type="checkbox" name="hobby" value="coding">扣代码
+    </div>
+    <br>
+    <input type="submit" name="submit" value="提交">
+    <input type="reset" name="reset" value="重置">
+    <input type="button" name="button" value="按钮">
+</form>
+</body>
+</html>
